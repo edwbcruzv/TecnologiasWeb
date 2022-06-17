@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div>
+        <input type="number" name="numero" id="numero" min="0" max="100" value="0">
+        <button id="boton" >Calcular Factorial</button>
+
+        <table class="tabla">
+            <thead>
+                <tr>
+                    <th>numero</th>
+                    <th>Factorial</th>
+                </tr>
+            </thead>
+            <tbody id="area_filas">
+                <!-- ciclo for -->
+                <!-- <tr>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2</td>
+                </tr> -->
+                <!-- fin ciclo for -->
+            </tbody>
+        </table>
+
+    </div>
+
+    <div>
+        <label for="">Filas</label>
+        <input type="number" name="filas" id="filas" min="1" max="4" value="1">
+        <label for="">Columnas</label>
+        <input type="number" name="columnas" id="columnas" min="1" max="4" value="1">
+        <button id="boton2">Listo</button>
+
+        <table class="tabla2">
+            <tbody id="area_tabla">
+                <!-- <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td scope="row"></td>
+                    <td></td>
+                    <td></td>
+                </tr> -->
+            </tbody>
+        </table>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

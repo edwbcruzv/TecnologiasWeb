@@ -1,0 +1,63 @@
+
+/*
+colores
+#32485E
+#BDD0E3
+#76AADE *
+#525B64
+#5B83AB  *
+segundo conjunto
+
+#63FAFF
+#1779E8
+#2D26FF
+#A85AE8
+#FF47E8
+*/
+
+/* barra del menu */
+.Superior{
+    background-color: #ff47e638;
+    height: 10em;
+    padding-top: 1em;
+    margin-bottom: 2em;
+}
+.Menu{
+    background-color: #63faff4b;
+    height: 5em;
+    border-top: 4px dashed coral ;
+    border-bottom: 4px dashed coral ;
+}
+
+.Menu-Item{
+    background-color: #a85ae850;
+    width: 9em;
+    height: 2em;
+    padding-top: 1em;
+    margin: 1em;
+    border-radius: 1em;
+
+    display: inline-block;
+    position: sticky;
+
+    text-align: center;
+}
+/* Fin del menu */
+
+/* contenido */
+.Info{
+    background-color: #32485e93;
+    
+}
+
+
+.Info h4{
+    background-color: rgb(46, 58, 80);
+    display: inline;
+}
+
+.Info h5{
+    background-color: cornflowerblue;
+    display: inline;
+    text
+}

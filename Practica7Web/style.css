@@ -1,0 +1,21 @@
+/* *{
+    border: 1px solid rgb(0, 0, 0);
+} */
+
+*{
+    margin: 50px;
+}
+
+.tabla,td{
+    border:1px solid rgb(0, 0, 0);
+}
+
+.tabla2 td{
+
+    width: 6rem;
+    height: 8rem;
+
+    background-color: rgb(65, 65, 103);
+    border: 8px groove rgba(90, 21, 137, 0.693);
+
+}

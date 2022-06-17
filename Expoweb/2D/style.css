@@ -1,0 +1,99 @@
+
+section{
+    background-color: dimgrey;
+    margin-bottom: 50px;
+}
+
+
+.traslacion{
+    
+    width: 100px;
+    height: 200px;
+    border: 5px solid black ;
+    /* margin: auto; */
+    
+    background: linear-gradient(orange,red);
+
+    transform-origin: 50% 50%;
+
+    /* solo se mueve en los ejes X y Y */
+    /* transform: translateX(50px) translateY(5px); */
+    /* transform: translate(50px,50px); */
+    /* translate: 50px 50px; */
+
+    
+    /* eje z */
+    /* transform-style: preserve-3d;
+    transform: translateX(50px) translateY(50px) translateZ(500px); */
+
+   
+}
+
+.escalado{
+    width: 100px;
+    height: 200px;
+    border: 5px solid black;
+    /* margin: auto; */
+
+    background: linear-gradient(rgb(255, 202, 58),rgb(124, 30, 104));
+
+    /* hace mas ancho n veces*//* Cambia la altura n veces */
+    /* transform: scaleX(1000%) scaleY(.5); */
+    /* transform: scale(100%,10%); */
+
+    /* eje z */
+    transform-style: preserve-3d;
+    /* transform: scaleZ(2); */
+    /* transform: scaleX(1) scaleY(1) scaleZ(3); */
+    /* transform: scale(100%,10%,10%); */
+
+}
+
+.rotacion{
+    width: 100px;
+    height: 200px;
+    border: 5px solid black ;
+    /* margin: auto; */
+
+    background: linear-gradient(rgb(3, 255, 36),rgb(215, 130, 255));
+    
+    /* origen de la transformacion en eje X y Y */
+    transform-origin: 100% 50%;
+    
+    /* gira en el eje x*/
+    /* transform: rotateX(45deg) ; */
+    /* gira en el eje y*/
+    transform: rotateY(45deg) ;
+    /* gira en si mismo */
+    /* transform: rotateZ(5deg); */
+
+    /* ambas rotaciones */
+    /* transform: rotateX(30deg) rotateY(60deg); */
+
+
+    /* eje z */
+    /* transform-style: preserve-3d; */
+    /* transform: rotateX(30deg) rotateY(60deg) rotateZ(45deg); */
+}
+
+.deformacion{
+    width: 100px;
+    height: 200px;
+    border: 5px solid black ;
+    /* margin: auto; */
+
+    background: linear-gradient(rgb(255, 3, 16),rgb(46, 31, 179));
+
+    /* origen de la transformacion en eje X y Y */
+    transform-origin: 100% 50%;
+
+    /* deformacion respecto al eje x */
+    /* transform: skewX(45deg); */
+    /* deformacion respecto al eje y */
+    transform: skewY(10deg);
+
+    /* anbas deformaciones */
+    /* transform: skewX(45deg) skewY(45deg); */
+    
+    
+}

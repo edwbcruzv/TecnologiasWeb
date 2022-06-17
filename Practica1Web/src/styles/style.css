@@ -1,0 +1,34 @@
+
+/*
+colores
+#32485E
+#BDD0E3
+#76AADE *
+#525B64
+#5B83AB  *
+
+*/
+
+
+body{
+
+    background-color: #5b83ab;
+}
+
+.Superior{
+    background-color: #76AADE;
+}
+
+.Menu-Item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+.Info{
+    background-color: #32485E;
+}
+

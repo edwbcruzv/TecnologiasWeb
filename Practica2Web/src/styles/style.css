@@ -1,0 +1,42 @@
+
+/*
+colores
+#32485E
+#BDD0E3
+#76AADE *
+#525B64
+#5B83AB  *
+
+*/
+
+
+.tabla{
+
+    border-collapse: collapse;
+    border: 5px inset #BDD0E3;
+}
+
+.tabla tr td,th{
+    border-collapse:collapse;
+    border: 4px outset #5B83AB;
+}
+
+td{
+    width: 500px;
+}
+
+.Superior{
+    background-color: #76AADE;
+}
+
+.Menu-Item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.Info, .Noticias{
+    background-color: #32485e93;
+}
+

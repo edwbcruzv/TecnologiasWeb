@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <form action="" id="formulario" method="POST">
+        <fieldset>
+            <legend>Nombre</legend>
+            <input id="nombre" type="text" placeholder="Nombre(s)">
+            <input id="ap_paterno" type="text" placeholder="Apellido Paterno">
+            <input id="ap_materno" type="text" placeholder="Apellido Materno">
+        </fieldset>
+
+        <fieldset>
+            <legend>Direccion</legend>
+            <input id="calle" type="text" placeholder="Calle">
+            <input id="num_casa" type="number" placeholder="No.">
+            <input id="colonia" type="text" placeholder="Colonia">
+            <input id="codigo_postal" type="number" placeholder="CP">
+            <select name="" id="ciudad" >
+                    <option value="" label="Seleccione ciudad"></option>
+                    <option value="1" label="ciudad 1"></option>
+                    <option value="2" label="ciudad 2"></option>
+                    <option value="3" label="ciudad 3"></option>
+                    <option value="4" label="ciudad 4"></option>
+                    <option value="5" label="ciudad 5"></option>
+            </select>
+        </fieldset>
+        Sexo:
+        <input type="radio" name="sexo" id="masculino"> Hombre
+        <input type="radio" name="sexo" id="femenino"> Mujer
+        <input type="radio" name="sexo" id="otro"> Otro
+
+        Fecha de Nacimiento:
+        <input type="date" name="" id="fecha_nacimiento">
+        CURP:
+        <input type="text" name="" id="curp">
+
+        <fieldset>
+            <legend>lenguajes de programacion</legend>
+
+            <input type="checkbox" name="" id="c">C
+            <input type="checkbox" name="" id="cpp">C++
+            <input type="checkbox" name="" id="java">Java
+            <input type="checkbox" name="" id="python">Python
+            <input type="checkbox" name="" id="ruby">Ruby
+            <input type="checkbox" name="" id="perl">Perl
+            <input type="checkbox" name="" id="r">R
+            <input type="checkbox" name="" id="otro_lenguaje">Otro
+        </fieldset>
+
+        <fieldset>
+            <legend>pasatiempos</legend>
+            <input type="checkbox" name="" id="leer">Leer
+            <input type="checkbox" name="" id="ver_TV">ver TV
+            <input type="checkbox" name="" id="nav_internet">Navegar en internet
+            <input type="checkbox" name="" id="videojuegos">Videojuegos
+            <input type="checkbox" name="" id="bailar">Bailar
+            <input type="checkbox" name="" id="cine">Ir al cine
+            <input type="checkbox" name="" id="netflix">ver Netflix
+            <input type="checkbox" name="" id="otros_pasatiempos">Otras
+        </fieldset>
+        
+        <fieldset>
+            <legend>comentarios</legend>
+            <Textarea></Textarea>
+        </fieldset>
+
+        <input id="enviar" type="button" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
